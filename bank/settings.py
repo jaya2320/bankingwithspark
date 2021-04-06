@@ -146,3 +146,7 @@ if os.getcwd() == '/app':
     DEBUG = False
 
     #Static asset configuration
+
+
+    
+STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
